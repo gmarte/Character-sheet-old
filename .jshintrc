@@ -19,10 +19,6 @@
   "trailing": true,
   "smarttabs": true,
   "globals": {
-    "angular": false,
-    "marked": false,
-    "FastClick": false,
-    "app": true,
-    "pf": true
+    "angular": false
   }
 }
