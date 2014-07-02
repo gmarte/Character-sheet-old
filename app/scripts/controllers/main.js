@@ -1,10 +1,14 @@
 'use strict';
 
-angular.module('charactersApp')
-.controller('MainCtrl', ['$scope', '$http',
-	function ($scope, $http) {
-		$http.get('characters/characters.json')
+app.controller('MainCtrl', [
+	'$http',
+	'$scope',
+	'$window',
+	function ($http, $scope, $window) {
+		$window.document.title = 'Character Sheets';
+		$http.get('characters/_list.json')
 		.success(function (data) {
 			$scope.characters = data;
 		});
-	}]);
+	}
+]);

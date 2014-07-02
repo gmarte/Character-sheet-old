@@ -56,7 +56,8 @@ module.exports = function (grunt) {
 				files: [
 					'<%= yeoman.app %>/{,*/}*.html',
 					'.tmp/styles/{,*/}*.css',
-					'<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+					'<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+					'<%= yeoman.app %>/characters/{,*/}*.json'
 				]
 			}
 		},
@@ -222,22 +223,39 @@ module.exports = function (grunt) {
 				}]
 			}
 		},
-
+		/*
 		htmlmin: {
 			dist: {
 				options: {
-					conservativeCollapse: true,
-					collapseBooleanAttributes: true,
-					removeComments: true,
-					removeCommentsFromCDATA: true,
-					removeOptionalTags: true
+					collapseWhitespace: true//,
+					//collapseBooleanAttributes: true,
+					//removeComments: true,
+					//removeCommentsFromCDATA: true,
+					//removeOptionalTags: true
 				},
 				files: [{
 					expand: true,
 					cwd: '<%= yeoman.dist %>',
-					src: ['*.html', 'views/{,*/}*.html'],
+					src: [
+						'*.html',
+						*///'views/{,*/}*.html',
+						/*'views/directives/*.html'
+					],
 					dest: '<%= yeoman.dist %>'
 				}]
+			}
+		},
+		*/
+
+		htmlclean: {
+			deploy: {
+				expand: true,
+				cwd: '<%= yeoman.dist %>',
+				src: [
+					'*.html',
+					'views/{,*/}*.html'
+				],
+				dest: '<%= yeoman.dist %>'
 			}
 		},
 
@@ -263,6 +281,13 @@ module.exports = function (grunt) {
 			}
 		},
 
+		htmlrefs: {
+			dist: {
+				src: '<%= yeoman.dist %>/index.html',
+				dest: '<%= yeoman.dist %>/index.html'
+			}
+		},
+
 		// Copies remaining files to places other tasks can use
 		copy: {
 			dist: {
@@ -273,12 +298,12 @@ module.exports = function (grunt) {
 					dest: '<%= yeoman.dist %>',
 					src: [
 						'*.{ico,png,txt}',
-						'.htaccess',
+						'.nojekyll',
 						'*.html',
 						'views/{,*/}*.html',
 						'images/{,*/}*.{webp}',
 						'fonts/*',
-						'characters/*.json'
+						'characters/{,*/}*'
 					]
 				}, {
 					expand: true,
@@ -387,20 +412,20 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('build', [
 		'clean:dist',
-		'bowerInstall',
 		'useminPrepare',
 		'concurrent:dist',
 		'autoprefixer',
 		'concat',
 		'ngmin',
 		'copy:dist',
-		'cdnify',
+		//'cdnify', disabled because it currently doesn't work
+		'htmlrefs',
 		'cssmin',
 		'uglify',
 		'rev',
 		'usemin',
 		'json-minify',
-		'htmlmin'
+		'htmlclean'
 	]);
 
 	grunt.registerTask('default', [

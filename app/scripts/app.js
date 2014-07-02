@@ -1,48 +1,39 @@
 'use strict';
+/*exported app*/
 
-var FastClick = FastClick;
-
-angular.module('charactersApp', [
-	'ngCookies',
+var app = angular.module('charactersApp', [
 	'ngResource',
-	'ngSanitize',
 	'ngRoute',
+	'ngSanitize',
 	'ui.bootstrap'
-])
-.config(function ($routeProvider) {
-	$routeProvider
-	.when('/', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl'
-	})
-	.when('/characters/:characterId', {
-		templateUrl: 'views/character.html',
-		controller: 'CharacterCtrl'
-	})
-	.otherwise({
-		redirectTo: '/'
-	});
-});
+]);
 
-Number.prototype.toOrdinal = function() {
-	var s = ['th','st','nd','rd'];
-	var v = this%100;
-	return this + (s[(v-20)%10]||s[v]||s[0]);
-};
+app.config([
+	'$compileProvider',
+	'$routeProvider',
+	function ($compileProvider, $routeProvider) {
+		$compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|file|blob):|data:image\//);
 
-
-angular.module('charactersApp').filter('with', function() {
-	return function(items, field) {
-		var result = {};
-		angular.forEach(items, function(value, key) {
-			if (!value.hasOwnProperty(field)) {
-				result[key] = value;
-			}
+		$routeProvider
+		.when('/', {
+			templateUrl: 'views/main.html',
+			controller: 'MainCtrl',
+			reloadOnSearch: false
+		})
+		.when('/:characterId', {
+			templateUrl: 'views/character.html',
+			controller: 'CharacterCtrl',
+			reloadOnSearch: false
+		})
+		.otherwise({
+			redirectTo: '/',
+			reloadOnSearch: false
 		});
-		return result;
-	};
-});
- 
-angular.module('charactersApp').run(function() {
-	FastClick.attach(document.body);
-});
+	}
+]);
+
+app.run([
+	function() {
+		FastClick.attach(document.body);
+	}
+]);

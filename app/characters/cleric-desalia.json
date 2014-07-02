@@ -1,45 +1,45 @@
 [
     {
-        "name": "Amroth",
-        "info": "TN Human Abjurer 5",
+        "name": "Desalia Moonstone",
+        "info": "CG Assimar Cleric of Desna 6",
         "ac": {
-            "normal": 16,
-            "touch": 12,
-            "flat": 14,
-            "bonuses": "+4 armor, +2 dex"
+            "normal": 21,
+            "touch": 11,
+            "flat": 20,
+            "bonuses": "+7 armor, +1 dex, +3 shield"
         },
         "cmd": {
-            "normal": 14,
-            "flat": 12
+            "normal": 17,
+            "flat": 16
         },
-        "hp": 43,
+        "hp": 42,
         "save": {
-            "fort": "1d20+3",
+            "fort": "1d20+8",
             "refl": "1d20+4",
-            "will": "1d20+6"
+            "will": "1d20+11"
         },
         "ability": {
             "str": 10,
-            "dex": 14,
-            "con": 12,
-            "int": 22,
-            "wis": 12,
-            "cha": 8
+            "dex": 12,
+            "con": 14,
+            "int": 7,
+            "wis": 21,
+            "cha": 14
         },
-        "resist": "acid, cold, electricity, fire, or sonic 5",
+        "resist": "-",
         "speed": "6",
-        "initiative": "1d20+8",
+        "initiative": "1d20+1",
         "melee": [
             {
-                "name": "combat maneuver",
+                "name": "Adamantite Morning Star +1",
                 "die": [
-                    "1d20+2"
+                    "1d20+5"
                 ]
             },
             {
                 "name": "melee touch",
                 "die": [
-                    "1d20+2"
+                    "1d20+4"
                 ]
             }
         ],
@@ -47,22 +47,22 @@
             {
                 "name": "ranged touch",
                 "die": [
-                    "1d20+4"
+                    "1d20+5"
                 ]
             }
         ],
         "feats": [
             {
-                "name": "Alertness",
-                "link": "feats/general-feats/alertness---final"
+                "name": "Spell Focus (Conjuration)",
+                "link": "feats/general-feats/spell-focus---final"
             },
             {
-                "name": "Craft Wondrous Item",
-                "link": "feats/item-creation-feats/craft-wondrous-item-item-creation---final"
+                "name": "Toppling Spell",
+                "link": "feats/metamagic-feats/toppling-spell-metamagic"
             },
             {
-                "name": "Extend Spell",
-                "link": "feats/metamagic-feats/extend-spell-metamagic---final"
+                "name": "Augment Summoning",
+                "link": "feats/general-feats/augment-summoning---final"
             },
             {
                 "name": "Fast Study",
