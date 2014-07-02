@@ -617,13 +617,7 @@
                         "link": "magic/all-spells/t/true-strike",
                         "text": "+20 on your next attack roll.",
                         "uses": "1/day"
-                    },
-					{
-                        "name": "True Strike (Luck)",
-                        "link": "magic/all-spells/t/true-strike",
-                        "text": "+20 on your next attack roll.",
-                        "uses": "1/day"
-                    },
+                    },					
 					{
                         "name": "Liberation (Liberation)",
                         "link": "classes/core-classes/cleric/domains/paizo---domains/liberation-domain",
