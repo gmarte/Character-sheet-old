@@ -1,45 +1,45 @@
 [
     {
-        "name": "Amroth",
-        "info": "TN Human Abjurer 5",
+        "name": "Desalia Moonstone",
+        "info": "CG Assimar Cleric of Desna",
         "ac": {
-            "normal": 16,
-            "touch": 12,
-            "flat": 14,
-            "bonuses": "+4 armor, +2 dex"
+            "normal": 21,
+            "touch": 11,
+            "flat": 20,
+            "bonuses": "+7 armor, +1 dex, +3 shield"
         },
         "cmd": {
-            "normal": 14,
-            "flat": 12
+            "normal": 17,
+            "flat": 16
         },
-        "hp": 43,
+        "hp": 42,
         "save": {
-            "fort": "1d20+3",
+            "fort": "1d20+8",
             "refl": "1d20+4",
-            "will": "1d20+6"
+            "will": "1d20+11"
         },
         "ability": {
             "str": 10,
-            "dex": 14,
-            "con": 12,
-            "int": 22,
-            "wis": 12,
-            "cha": 8
+            "dex": 12,
+            "con": 14,
+            "int": 7,
+            "wis": 21,
+            "cha": 14
         },
-        "resist": "acid, cold, electricity, fire, or sonic 5",
+        "resist": "-",
         "speed": "6",
-        "initiative": "1d20+8",
+        "initiative": "1d20+1",
         "melee": [
             {
-                "name": "combat maneuver",
+                "name": "Adamantite Morning Star +1",
                 "die": [
-                    "1d20+2"
+                    "1d20+5"
                 ]
             },
             {
                 "name": "melee touch",
                 "die": [
-                    "1d20+2"
+                    "1d20+4"
                 ]
             }
         ],
@@ -47,56 +47,40 @@
             {
                 "name": "ranged touch",
                 "die": [
-                    "1d20+4"
+                    "1d20+5"
                 ]
             }
         ],
         "feats": [
             {
-                "name": "Alertness",
-                "link": "feats/general-feats/alertness---final"
+                "name": "Spell Focus (conjuration)",
+                "link": "feats/general-feats/spell-focus---final"
             },
             {
-                "name": "Craft Wondrous Item",
-                "link": "feats/item-creation-feats/craft-wondrous-item-item-creation---final"
+                "name": "Toppling Spell",
+                "link": "feats/metamagic-feats/toppling-spell-metamagic"
             },
             {
-                "name": "Extend Spell",
-                "link": "feats/metamagic-feats/extend-spell-metamagic---final"
-            },
-            {
-                "name": "Fast Study",
-                "link": "classes/core-classes/wizard/archetypes/paizo---wizard-archetypes/arcane-discoveries/fast-study"
-            },
-            {
-                "name": "Improved Initiative",
-                "link": "feats/combat-feats/improved-initiative-combat---final"
-            },
-            {
-                "name": "Scribe Scroll",
-                "link": "feats/item-creation-feats/scribe-scroll-item-creation---final"
-            },
-            {
-                "name": "Toughness",
-                "link": "feats/general-feats/toughness---final"
-            }
+                "name": "Augment Summoning",
+                "link": "feats/general-feats/augment-summoning---final"
+            }            
         ],
         "skills": [
             {
                 "name": "Acrobatics",
-                "die": "1d20+2"
+                "die": "1d20-4"
             },
             {
                 "name": "Appraise",
-                "die": "1d20+14"
+                "die": "1d20-2"
             },
             {
                 "name": "Bluff",
-                "die": "1d20-1"
+                "die": "1d20+2"
             },
             {
                 "name": "Climb",
-                "die": "1d20+0"
+                "die": "1d20-5"
             },
             {
                 "name": "Craft (Clockwork)",
@@ -108,71 +92,39 @@
             },
             {
                 "name": "Diplomacy",
-                "die": "1d20-1"
+                "die": "1d20+4"
             },
             {
                 "name": "Disguise",
-                "die": "1d20-1"
-            },
-            {
-                "name": "Escape Artist",
                 "die": "1d20+2"
             },
             {
+                "name": "Escape Artist",
+                "die": "1d20-4"
+            },
+            {
                 "name": "Fly",
-                "die": "1d20+10"
+                "die": "1d20-4"
             },
             {
                 "name": "Heal",
-                "die": "1d20+1"
+                "die": "1d20+12"
             },
             {
                 "name": "Intimidate",
-                "die": "1d20-1"
+                "die": "1d20+2"
             },
             {
                 "name": "Knowledge (Arcana)",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Knowledge (Dungeoneering)",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Knowledge (Engineering)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Geography)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (History)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Local)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Nature)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Nobility)",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Knowledge (Planes)",
-                "die": "1d20+14"
-            },
+                "die": "1d20+2"
+            },            
             {
                 "name": "Knowledge (Religion)",
-                "die": "1d20+14"
+                "die": "1d20+9"
             },
             {
                 "name": "Perception",
-                "die": "1d20+12"
+                "die": "1d20+7"
             },
             {
                 "name": "Perform (Untrained)",
@@ -180,44 +132,39 @@
             },
             {
                 "name": "Ride",
-                "die": "1d20+2"
+                "die": "1d20-4"
             },
             {
                 "name": "Sense Motive",
-                "die": "1d20+3"
+                "die": "1d20+5"
             },
             {
                 "name": "Spellcraft",
-                "die": "1d20+14"
-            },
-            {
-                "name": "Stealth",
                 "die": "1d20+2"
             },
             {
+                "name": "Stealth",
+                "die": "1d20-4"
+            },
+            {
                 "name": "Survival",
-                "die": "1d20+1"
+                "die": "1d20+5"
             },
             {
                 "name": "Swim",
-                "die": "1d20+0"
+                "die": "1d20-5"
             }
         ],
         "languages": [
             "Common",
-            "Dwarven",
-            "Elven",
-            "Gnome",
-            "Goblin",
-            "Halfling",
-            "Orc"
+            "Celestial"            
         ],
         "spells": [
             {
-                "name": "Abjurer",
-                "cl": "5th",
+                "name": "Cleric",
+                "cl": "6th",
                 "con": "1d20+11",
-                "sr": "1d20+5",
+                "sr": "1d20+6",
                 "spellLevels": [
                     3,
                     2,
@@ -651,218 +598,46 @@
         ],
         "slas": [
             {
-                "name": "Abjurer",
+                "name": "Cleric",
                 "list": [
                     {
-                        "name": "protective ward",
-                        "link": "classes/core-classes/wizard/arcane-schools/paizo---arcane-schools/classic-arcane-schools/abjuration",
-                        "text": "+2 deflection bonus to AC for allies in 2 radius for 6 rounds",
-                        "uses": "9/day"
-                    }
+                        "name": "Daylight",
+                        "link": "magic/all-spells/d/daylight",
+                        "text": "60-ft. radius of bright light.",
+                        "uses": "1/day"
+                    },
+					{
+                        "name": "Longstrider (Liberation)",
+                        "link": "magic/all-spells/l/longstrider",
+                        "text": "Your speed increases by 10 ft.",
+                        "uses": "1/day"
+                    },
+					{
+                        "name": "True Strike (Luck)",
+                        "link": "magic/all-spells/t/true-strike",
+                        "text": "+20 on your next attack roll.",
+                        "uses": "1/day"
+                    },
+					{
+                        "name": "True Strike (Luck)",
+                        "link": "magic/all-spells/t/true-strike",
+                        "text": "+20 on your next attack roll.",
+                        "uses": "1/day"
+                    },
+					{
+                        "name": "Liberation (Liberation)",
+                        "link": "classes/core-classes/cleric/domains/paizo---domains/liberation-domain",
+                        "text": "You have the ability to ignore impediments to your mobility.",
+                        "uses": "6/day"
+                    },
+					{
+                        "name": "Agile Feet (Travel)",
+                        "link": "classes/core-classes/cleric/domains/paizo---domains/travel-domain",
+                        "text": "Free action for 1 round you ignore all difficult terrain and do not take any penalties for moving through it.",
+                        "uses": "8/day"
+                    }				
                 ]
             }
         ]
-    },
-    {
-        "name": "Nerm",
-        "info": "TN Raven Familiar",
-        "ac": {
-            "normal": 17,
-            "touch": 14,
-            "flat": 15,
-            "bonuses": "+2 dex, +3 natural, +2 size"
-        },
-        "cmd": {
-            "normal": 10,
-            "flat": 8,
-            "bonuses": "+2 bab, +2 dex, -2 size, -2 str"
-        },
-        "hp": 21,
-        "save": {
-            "fort": "1d20+3",
-            "refl": "1d20+5",
-            "will": "1d20+7"
-        },
-        "ability": {
-            "str": 2,
-            "dex": 15,
-            "con": 8,
-            "int": 8,
-            "wis": 15,
-            "cha": 7
-        },
-        "speed": "2, fly 8 (average)",
-        "initiative": "1d20+2",
-        "senses": "low-light vision",
-        "melee": [
-            {
-                "name": "bite",
-                "die": [
-                    "1d20+6",
-                    " (",
-                    "1d3-4",
-                    ")"
-                ]
-            },
-            {
-                "name": "combat maneuver",
-                "die": [
-                    "1d20+2"
-                ]
-            },
-            {
-                "name": "melee touch",
-                "die": [
-                    "1d20+6"
-                ]
-            }
-        ],
-        "ranged": [
-            {
-                "name": "ranged touch",
-                "die": [
-                    "1d20+6"
-                ]
-            }
-        ],
-        "feats": [
-            {
-                "name": "Extra Item Slot (Shoulders)",
-                "link": "feats/general-feats/extra-item-slot"
-            },
-            {
-                "name": "Weapon Finesse",
-                "link": "feats/combat-feats/weapon-finesse-combat---final"
-            }
-        ],
-        "languages": [
-            "Common"
-        ],
-        "skills": [
-            {
-                "name": "Acrobatics",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Acrobatics (Jump)",
-                "die": "1d20-6"
-            },
-            {
-                "name": "Appraise",
-                "die": "1d20+1"
-            },
-            {
-                "name": "Bluff",
-                "die": "1d20-2"
-            },
-            {
-                "name": "Climb",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Craft (Clockwork)",
-                "die": "1d20+1"
-            },
-            {
-                "name": "Craft (Untrained)",
-                "die": "1d20-1"
-            },
-            {
-                "name": "Diplomacy",
-                "die": "1d20-2"
-            },
-            {
-                "name": "Disguise",
-                "die": "1d20-2"
-            },
-            {
-                "name": "Escape Artist",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Fly",
-                "die": "1d20+6"
-            },
-            {
-                "name": "Heal",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Intimidate",
-                "die": "1d20-2"
-            },
-            {
-                "name": "Knowledge (Arcana)",
-                "die": "1d20+4"
-            },
-            {
-                "name": "Knowledge (Dungeoneering)",
-                "die": "1d20+4"
-            },
-            {
-                "name": "Knowledge (Engineering)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (Geography)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (History)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (Local)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (Nature)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (Nobility)",
-                "die": "1d20+0"
-            },
-            {
-                "name": "Knowledge (Planes)",
-                "die": "1d20+4"
-            },
-            {
-                "name": "Knowledge (Religion)",
-                "die": "1d20+4"
-            },
-            {
-                "name": "Perception ",
-                "die": "1d20+10"
-            },
-            {
-                "name": "Perform (Untrained)",
-                "die": "1d20-2"
-            },
-            {
-                "name": "Ride",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Sense Motive",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Spellcraft",
-                "die": "1d20+4"
-            },
-            {
-                "name": "Stealth ",
-                "die": "1d2010"
-            },
-            {
-                "name": "Survival",
-                "die": "1d20+2"
-            },
-            {
-                "name": "Swim",
-                "die": "1d20+2"
-            }
-        ]
-    }
+    }    
 ]
