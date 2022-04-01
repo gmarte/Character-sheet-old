@@ -199,7 +199,9 @@
 		<p ng-if="c.traits">
 			<b>Racial Features & Traits</b><br />
 			<span ng-repeat="traits in c.traits">
-				{{traits.name}}: {{traits.description}}<br
+				{{traits.name}}: {{traits.description}}
+				<small ng-if="traits.extra">{{traits.extra}}</small>				
+				<br
 					ng-if="!$last"
 					>
 				</span>

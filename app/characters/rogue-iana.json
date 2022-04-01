@@ -195,7 +195,8 @@
 		"traits": [
 			{
 				"name": "Conduit of death (Campaign trait)",
-				"description": "(1/day) Whenever you enter combat with an opponent that you know beforehand, or deceive them in anyway (through stealth, disguise, bluff for example) you gain a +2 bonus to attack and damage rolls for one minute"
+				"description": "(1/day) Whenever you enter combat with an opponent that you know beforehand, or deceive them in anyway (through stealth, disguise, bluff for example) you gain a +2 bonus to attack and damage rolls for one minute",
+				"extra": "like the red sands inside Pharasma's hourglass, you count the days of your sworn enemies, plotting to send them to the after life.The anger residing makes you ageless, not allowing your body to mature until your list has been scratched.</p><b>Benefit Ageless (Ex):</b> You do not experience any of the benefits or penalties of aging beyond younghood and are effectively immortal, never dying of old age. As a result, you are size: small and adjust your statistics to reflect your size"
 			},
 			{
 				"name": "Reaccionary",
@@ -208,10 +209,6 @@
 			{
 				"name": "Paranoid",
 				"description": "Effect: Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check"
-			},
-			{
-				"name": "Conduit of death (Campaign trait)",
-				"description": "<small><p>like the red sands inside Pharasma's hourglass, you count the days of your sworn enemies,   plotting to send them to the after life.</p><p>The anger residing makes you ageless, not allowing your body to mature until your list has been scratched.</p><b>Benefit Ageless (Ex):</b> You do not experience any of the benefits or penalties of aging beyond younghood and are effectively immortal, never dying of old age. As a result, you are size: small and adjust your statistics to reflect your size.</small>"
 			}
 		]
 	}
