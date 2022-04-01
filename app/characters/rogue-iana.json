@@ -182,6 +182,36 @@
 			{
 				"name": "Sneak Stab",
 				"description": "Uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s"
+			},
+			{
+				"name": "Finesse Training",
+				"description": "Finesse Training (Ex): At 1st level, a rogue gains Weapon Finesse as a bonus feat"
+			},
+			{
+				"name": "Evasion",
+				"description": "A rogue can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the rogue is wearing light armor or no armor. A helpless rogue does not gain the benefit of evasion"
+			}
+		],
+		"traits": [
+			{
+				"name": "Conduit of death (Campaign trait)",
+				"description": "(1/day) Whenever you enter combat with an opponent that you know beforehand, or deceive them in anyway (through stealth, disguise, bluff for example) you gain a +2 bonus to attack and damage rolls for one minute"
+			},
+			{
+				"name": "Reaccionary",
+				"description": "Benefit: You gain a +2 trait bonus on initiative checks"
+			},
+			{
+				"name": "Dimdweller",
+				"description": "Whenever characters with this trait benefit from concealment or full concealment due to darkness or dim light, they gain a +2 racial bonus on Intimidate, Perception, and Stealth checks. Humans can take this trait in place of the skilled trait, also gaining darkvision to a range of 60 feet"
+			},
+			{
+				"name": "Paranoid",
+				"description": "Effect: Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check"
+			},
+			{
+				"name": "Conduit of death (Campaign trait)",
+				"description": "<small><p>like the red sands inside Pharasma's hourglass, you count the days of your sworn enemies,   plotting to send them to the after life.</p><p>The anger residing makes you ageless, not allowing your body to mature until your list has been scratched.</p><b>Benefit Ageless (Ex):</b> You do not experience any of the benefits or penalties of aging beyond younghood and are effectively immortal, never dying of old age. As a result, you are size: small and adjust your statistics to reflect your size.</small>"
 			}
 		]
 	}

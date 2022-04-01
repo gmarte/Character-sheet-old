@@ -195,6 +195,16 @@
 				</span>
 			</span>
 		</p>
+		<hr />
+		<p ng-if="c.traits">
+			<b>Racial Features & Traits</b><br />
+			<span ng-repeat="traits in c.traits">
+				{{traits.name}}: {{traits.description}}<br
+					ng-if="!$last"
+					>
+				</span>
+			</span>
+		</p>
 	</div>
 	<hr ng-if="!$last" />
 </div>
