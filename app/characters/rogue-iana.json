@@ -1,0 +1,178 @@
+[
+	{
+		"name": "Iana Davian",
+		"info": "CN Human Rogue 2",
+		"ac": {
+			"normal": 19,
+			"touch": 16,
+			"flat": 14,
+			"bonuses": "+3 armor, +5 dex"
+		},
+		"cmd": {
+			"normal": 14,
+			"flat": 9
+		},
+		"hp": 15,
+		"save": {
+			"fort": "1d20+2",
+			"refl": "1d20+8",
+			"will": "1d20+0"
+		},
+		"ability": {
+			"str": 9,
+			"dex": 20,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 15
+		},
+		"resist": "-",
+		"speed": "6",
+		"initiative": "1d20+7",
+		"melee": [
+			{
+				"name": "melee",
+				"die": ["1d20+8"]
+			},
+			{
+				"name": "melee twf",
+				"die": ["1d20+6"]
+			},
+			{
+				"name": "melee twf + cod",
+				"die": ["1d20+8"]
+			},
+			{
+				"name": "melee twf + cod + pharasma",
+				"die": ["1d20+10"]
+			}
+		],
+		"ranged": [
+			{
+				"name": "ranged touch",
+				"die": ["1d20+7"]
+			}
+		],
+		"feats": [
+			{
+				"name": "Skill focus(stealth)",
+				"link": "feats/general-feats/skill-focus---final"
+			},
+			{
+				"name": "Two weapon fighting",
+				"link": "feats/item-creation-feats/two-weapon-fighting-combat---final"
+			}
+		],
+		"skills": [
+			{
+				"name": "Acrobatics",
+				"die": "1d20+10"
+			},
+			{
+				"name": "Appraise",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Bluff",
+				"die": "1d20+7"
+			},
+			{
+				"name": "Climb",
+				"die": "1d20-1"
+			},
+			{
+				"name": "Craft (Untrained)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Diplomacy",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Disguise",
+				"die": "1d20+7"
+			},
+			{
+				"name": "Escape Artist",
+				"die": "1d20+10"
+			},
+			{
+				"name": "Fly",
+				"die": "1d20+7"
+			},
+			{
+				"name": "Heal",
+				"die": "1d20+0"
+			},
+			{
+				"name": "Intimidate",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Knowledge (Arcana)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Knowledge (History)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Knowledge (Dungeoneering)",
+				"die": "1d20+6"
+			},
+			{
+				"name": "Knowledge (Local)",
+				"die": "1d20+7"
+			},
+			{
+				"name": "Knowledge (Nature)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Knowledge (Planes)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Knowledge (Religion)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Perception",
+				"die": "1d20+5"
+			},
+			{
+				"name": "Perform (Untrained)",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Ride",
+				"die": "1d20+5"
+			},
+			{
+				"name": "Sense Motive",
+				"die": "1d20+5"
+			},
+			{
+				"name": "Spellcraft",
+				"die": "1d20+2"
+			},
+			{
+				"name": "Stealth",
+				"die": "1d20+17"
+			},
+			{
+				"name": "Survival",
+				"die": "1d20+0"
+			},
+			{
+				"name": "Swim",
+				"die": "1d20-1"
+			},
+			{
+				"name": "Use Magic Device",
+				"die": "1d20+6"
+			}
+		],
+		"languages": ["Common", "Infernal", "Halfing"]
+	}
+]

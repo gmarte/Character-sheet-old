@@ -1,12 +1,17 @@
 [
-    {
-        "id": "cleric-desalia",
-        "name": "Desalia Moonstone",
-        "snippet": "6th level Cleric of Desna"
-    },
 	{
-        "id": "witch-ireth",
-        "name": "Ireth Arwamanë",
-        "snippet": "3th level Witch with a compsognathus familiar named Rhaegar."
-    }
+		"id": "cleric-desalia",
+		"name": "Desalia Moonstone",
+		"snippet": "6th level Cleric of Desna"
+	},
+	{
+		"id": "witch-ireth",
+		"name": "Ireth Arwamanë",
+		"snippet": "3th level Witch with a compsognathus familiar named Rhaegar."
+	},
+	{
+		"id": "rogue-iana",
+		"name": "Iana Davian",
+		"snippet": "Rogue Knife Master"
+	}
 ]
