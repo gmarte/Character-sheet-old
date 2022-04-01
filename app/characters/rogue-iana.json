@@ -177,11 +177,11 @@
 		"features": [
 			{
 				"name": "Hidden Blade",
-				"description": "A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade."
+				"description": "A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade"
 			},
 			{
 				"name": "Sneak Stab",
-				"description": "Uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s."
+				"description": "Uses d8s to roll sneak attack damage instead of d6s. For sneak attacks with all other weapons, she uses d4s instead of d6s"
 			}
 		]
 	}

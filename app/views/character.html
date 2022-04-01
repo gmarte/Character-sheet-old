@@ -185,12 +185,13 @@
 				{{language}}<span ng-if="!$last">, </span>
 			</span>
 		</p>
+		<hr />
 		<p ng-if="c.features">
-			<b>Class Features</b>
+			<b>Class Features</b><br />
 			<span ng-repeat="features in c.features">
-				<b>{{features.name}}</b>: {{features.description}}<span
+				{{features.name}}: {{features.description}}<br
 					ng-if="!$last"
-					>,
+					>
 				</span>
 			</span>
 		</p>
