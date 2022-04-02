@@ -199,9 +199,9 @@
 			<b>Racial Features & Traits</b><br />
 			<p ng-repeat="traits in c.traits">
 				<b>{{traits.name}}:</b> {{traits.description}}				
-				<p class="unprepared specialty list-unstyled spells">
+				<small class="unprepared specialty list-unstyled spells" ng-if="traits.extra">
 					{{traits.extra}}
-				</p>								
+				</small>								
 			</p>			
 		</p>
 	</div>
