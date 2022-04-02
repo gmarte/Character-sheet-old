@@ -198,15 +198,16 @@
 		<hr />
 		<p ng-if="c.traits">
 			<b>Racial Features & Traits</b><br />
-			<span ng-repeat="traits in c.traits">
+			<p ng-repeat="traits in c.traits">
 				{{traits.name}}: {{traits.description}}
 				<br ng-if="traits.extra" >
-				<p class="unprepared specialty list-unstyled spells" ng-if="traits.extra">{{traits.extra}}</p>				
+				<p class="unprepared specialty list-unstyled spells" ng-if="traits.extra">
+					{{traits.extra}}
+				</p>				
 				<br
 					ng-if="!$last"
 					>
-				</span>
-			</span>
+			</p>			
 		</p>
 	</div>
 	<hr ng-if="!$last" />
