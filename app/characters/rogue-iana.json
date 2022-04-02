@@ -200,15 +200,18 @@
 			},
 			{
 				"name": "Reaccionary",
-				"description": "Benefit: You gain a +2 trait bonus on initiative checks"
+				"description": "Benefit: You gain a +2 trait bonus on initiative checks",
+				"extra": ""
 			},
 			{
 				"name": "Dimdweller",
-				"description": "Whenever characters with this trait benefit from concealment or full concealment due to darkness or dim light, they gain a +2 racial bonus on Intimidate, Perception, and Stealth checks. Humans can take this trait in place of the skilled trait, also gaining darkvision to a range of 60 feet"
+				"description": "Whenever characters with this trait benefit from concealment or full concealment due to darkness or dim light, they gain a +2 racial bonus on Intimidate, Perception, and Stealth checks. Humans can take this trait in place of the skilled trait, also gaining darkvision to a range of 60 feet",
+				"extra": ""
 			},
 			{
 				"name": "Paranoid",
-				"description": "Effect: Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check"
+				"description": "Effect: Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check",
+				"extra": ""
 			}
 		]
 	}

@@ -188,12 +188,11 @@
 		<hr />
 		<p ng-if="c.features">
 			<b>Class Features</b><br />
-			<span ng-repeat="features in c.features">
+			<p ng-repeat="features in c.features">
 				{{features.name}}: {{features.description}}<br
 					ng-if="!$last"
 					>
-				</span>
-			</span>
+			</p>			
 		</p>
 		<hr />
 		<p ng-if="c.traits">
@@ -202,10 +201,7 @@
 				{{traits.name}}: {{traits.description}}				
 				<p class="unprepared specialty list-unstyled spells" ng-if="traits.extra">
 					{{traits.extra}}
-				</p>				
-				<br
-					ng-if="!$last"
-					>
+				</p>								
 			</p>			
 		</p>
 	</div>
